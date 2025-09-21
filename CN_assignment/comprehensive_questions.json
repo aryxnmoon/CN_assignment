@@ -1,0 +1,404 @@
+{
+  "questions": [
+    {
+      "id": "warmup_001",
+      "section": "warmup",
+      "question": "What is the purpose of the SUM function in Excel?",
+      "type": "text",
+      "difficulty": "easy",
+      "topic": "Basic Functions",
+      "canonical_answer": "The SUM function adds up all the numbers in a range of cells. It's one of the most commonly used functions in Excel for calculating totals.",
+      "keywords": ["SUM", "addition", "total", "range", "cells"]
+    },
+    {
+      "id": "warmup_002", 
+      "section": "warmup",
+      "question": "How do you select multiple non-adjacent cells in Excel?",
+      "type": "text",
+      "difficulty": "easy",
+      "topic": "Navigation",
+      "canonical_answer": "Hold down the Ctrl key while clicking on the cells you want to select. This allows you to select multiple cells that are not next to each other.",
+      "keywords": ["Ctrl", "select", "multiple", "non-adjacent", "cells"]
+    },
+    {
+      "id": "warmup_003",
+      "section": "warmup", 
+      "question": "What is the difference between a row and a column in Excel?",
+      "type": "text",
+      "difficulty": "easy",
+      "topic": "Basic Concepts",
+      "canonical_answer": "A row is a horizontal line of cells (numbered 1, 2, 3...), while a column is a vertical line of cells (lettered A, B, C...). The intersection of a row and column forms a cell.",
+      "keywords": ["row", "column", "horizontal", "vertical", "cell"]
+    },
+    {
+      "id": "warmup_004",
+      "section": "warmup",
+      "question": "How do you insert a new row in Excel?",
+      "type": "text", 
+      "difficulty": "easy",
+      "topic": "Data Manipulation",
+      "canonical_answer": "Right-click on the row number where you want to insert a new row, then select 'Insert' from the context menu. Alternatively, select the row and press Ctrl+Shift++.",
+      "keywords": ["insert", "row", "right-click", "Ctrl+Shift++"]
+    },
+    {
+      "id": "warmup_005",
+      "section": "warmup",
+      "question": "What does the AVERAGE function do?",
+      "type": "text",
+      "difficulty": "easy", 
+      "topic": "Basic Functions",
+      "canonical_answer": "The AVERAGE function calculates the arithmetic mean of a range of numbers. It adds all the numbers and divides by the count of numbers.",
+      "keywords": ["AVERAGE", "mean", "arithmetic", "calculate", "range"]
+    },
+    {
+      "id": "warmup_006",
+      "section": "warmup",
+      "question": "What is a cell address in Excel?",
+      "type": "text",
+      "difficulty": "easy",
+      "topic": "Basic Concepts",
+      "canonical_answer": "A cell address is the unique identifier for a cell, combining the column letter and row number (e.g., A1, B5, C10). It's used to reference specific cells in formulas.",
+      "keywords": ["cell address", "identifier", "column", "row", "reference"]
+    },
+    {
+      "id": "warmup_007",
+      "section": "warmup",
+      "question": "How do you copy a formula to other cells?",
+      "type": "text",
+      "difficulty": "easy",
+      "topic": "Formulas",
+      "canonical_answer": "Select the cell with the formula, press Ctrl+C to copy, then select the destination cells and press Ctrl+V to paste. You can also drag the fill handle (small square at bottom-right of cell).",
+      "keywords": ["copy", "formula", "Ctrl+C", "Ctrl+V", "fill handle"]
+    },
+    {
+      "id": "warmup_008",
+      "section": "warmup",
+      "question": "What is the difference between a workbook and a worksheet?",
+      "type": "text",
+      "difficulty": "easy",
+      "topic": "Basic Concepts",
+      "canonical_answer": "A workbook is the entire Excel file (.xlsx), while a worksheet is a single sheet within that workbook. A workbook can contain multiple worksheets.",
+      "keywords": ["workbook", "worksheet", "file", "sheet", "multiple"]
+    },
+    {
+      "id": "warmup_009",
+      "section": "warmup",
+      "question": "How do you save an Excel file?",
+      "type": "text",
+      "difficulty": "easy",
+      "topic": "File Operations",
+      "canonical_answer": "Press Ctrl+S to save, or click the Save button in the Quick Access Toolbar, or go to File > Save. For first time saving, use Ctrl+Shift+S or File > Save As to choose location and name.",
+      "keywords": ["save", "Ctrl+S", "Save As", "Ctrl+Shift+S", "File menu"]
+    },
+    {
+      "id": "warmup_010",
+      "section": "warmup",
+      "question": "What does the COUNT function do?",
+      "type": "text",
+      "difficulty": "easy",
+      "topic": "Basic Functions",
+      "canonical_answer": "The COUNT function counts the number of cells in a range that contain numbers. It ignores text, blank cells, and other non-numeric values.",
+      "keywords": ["COUNT", "count", "numbers", "range", "ignore text"]
+    },
+    {
+      "id": "core_001",
+      "section": "core",
+      "question": "Explain the VLOOKUP function and provide an example of its syntax.",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Lookup Functions", 
+      "canonical_answer": "VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]) searches for a value in the first column of a table and returns a value from the same row in a specified column. Example: =VLOOKUP(A2, B2:D10, 3, FALSE)",
+      "keywords": ["VLOOKUP", "lookup", "table", "column", "syntax"]
+    },
+    {
+      "id": "core_002",
+      "section": "core",
+      "question": "What is the difference between relative and absolute cell references?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Cell References",
+      "canonical_answer": "Relative references (A1) change when copied to other cells. Absolute references ($A$1) remain fixed when copied. Mixed references ($A1 or A$1) fix either the row or column.",
+      "keywords": ["relative", "absolute", "mixed", "references", "$"]
+    },
+    {
+      "id": "core_003", 
+      "section": "core",
+      "question": "How do you create a PivotTable in Excel?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "PivotTables",
+      "canonical_answer": "Select your data range, go to Insert > PivotTable, choose where to place it, then drag fields to Rows, Columns, Values, and Filters areas in the PivotTable Field List.",
+      "keywords": ["PivotTable", "Insert", "fields", "rows", "columns", "values"]
+    },
+    {
+      "id": "core_004",
+      "section": "core",
+      "question": "What is the IF function and how is it used?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Logical Functions",
+      "canonical_answer": "The IF function performs a logical test and returns one value if true, another if false. Syntax: =IF(logical_test, value_if_true, value_if_false). Example: =IF(A1>10, 'High', 'Low')",
+      "keywords": ["IF", "logical", "test", "true", "false", "conditional"]
+    },
+    {
+      "id": "core_005",
+      "section": "core", 
+      "question": "Explain the COUNTIF function with an example.",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Statistical Functions",
+      "canonical_answer": "COUNTIF counts the number of cells in a range that meet a single condition. Syntax: =COUNTIF(range, criteria). Example: =COUNTIF(A1:A10, '>5') counts cells greater than 5.",
+      "keywords": ["COUNTIF", "count", "condition", "criteria", "range"]
+    },
+    {
+      "id": "core_006",
+      "section": "core",
+      "question": "What are Excel array formulas and how do they work?",
+      "type": "text", 
+      "difficulty": "medium",
+      "topic": "Advanced Formulas",
+      "canonical_answer": "Array formulas perform calculations on multiple values simultaneously. They're entered with Ctrl+Shift+Enter (legacy) or just Enter (dynamic arrays). Example: =SUM(A1:A10*B1:B10) multiplies corresponding cells and sums the results.",
+      "keywords": ["array", "formulas", "Ctrl+Shift+Enter", "multiple", "values"]
+    },
+    {
+      "id": "core_007",
+      "section": "core",
+      "question": "How do you use the INDEX and MATCH functions together?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Lookup Functions",
+      "canonical_answer": "INDEX returns a value from a specific position in a range, while MATCH finds the position of a value. Combined: =INDEX(return_range, MATCH(lookup_value, lookup_range, 0)). This is more flexible than VLOOKUP.",
+      "keywords": ["INDEX", "MATCH", "lookup", "position", "flexible"]
+    },
+    {
+      "id": "core_008",
+      "section": "core",
+      "question": "What is the SUMIF function and how does it work?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Statistical Functions",
+      "canonical_answer": "SUMIF adds up values in a range that meet a specific condition. Syntax: =SUMIF(range, criteria, [sum_range]). Example: =SUMIF(A1:A10, '>100', B1:B10) sums values in B where A is greater than 100.",
+      "keywords": ["SUMIF", "sum", "condition", "criteria", "range"]
+    },
+    {
+      "id": "core_009",
+      "section": "core",
+      "question": "How do you create a drop-down list in Excel?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Data Validation",
+      "canonical_answer": "Select the cell(s), go to Data > Data Validation, choose 'List' as the validation criteria, then enter the list items separated by commas or reference a range of cells containing the options.",
+      "keywords": ["drop-down", "list", "Data Validation", "List", "comma-separated"]
+    },
+    {
+      "id": "core_010",
+      "section": "core",
+      "question": "What is conditional formatting and how do you apply it?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Formatting",
+      "canonical_answer": "Conditional formatting changes cell appearance based on conditions. Select cells, go to Home > Conditional Formatting, choose a rule type (highlight cells, data bars, color scales), set the condition, and choose formatting.",
+      "keywords": ["conditional formatting", "appearance", "conditions", "highlight", "data bars"]
+    },
+    {
+      "id": "core_011",
+      "section": "core",
+      "question": "Explain the HLOOKUP function and when to use it.",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Lookup Functions",
+      "canonical_answer": "HLOOKUP searches for a value in the first row of a table and returns a value from the same column in a specified row. Syntax: =HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup]). Use when data is organized horizontally.",
+      "keywords": ["HLOOKUP", "horizontal", "row", "column", "table"]
+    },
+    {
+      "id": "core_012",
+      "section": "core",
+      "question": "What is the difference between COUNT, COUNTA, and COUNTBLANK?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Statistical Functions",
+      "canonical_answer": "COUNT counts only numeric values, COUNTA counts all non-empty cells (text, numbers, formulas), and COUNTBLANK counts empty cells. Example: COUNT(A1:A10) counts numbers, COUNTA(A1:A10) counts all filled cells.",
+      "keywords": ["COUNT", "COUNTA", "COUNTBLANK", "numeric", "non-empty", "empty"]
+    },
+    {
+      "id": "scenario_001",
+      "section": "scenario",
+      "question": "You have a sales dataset with 10,000 rows. How would you find the top 10 performing sales representatives by total sales?",
+      "type": "text",
+      "difficulty": "hard",
+      "topic": "Data Analysis",
+      "canonical_answer": "Use a PivotTable: drag 'Sales Rep' to Rows, 'Sales Amount' to Values, then sort by Sales Amount descending and filter to show top 10. Alternatively, use LARGE function with RANK or SORT functions.",
+      "keywords": ["PivotTable", "top 10", "sort", "filter", "LARGE", "RANK"]
+    },
+    {
+      "id": "scenario_002",
+      "section": "scenario",
+      "question": "How would you create a dynamic chart that updates automatically when new data is added?",
+      "type": "text",
+      "difficulty": "hard", 
+      "topic": "Charts and Visualization",
+      "canonical_answer": "Use Excel Tables (Ctrl+T) for your data source, then create a chart from the table. The chart will automatically expand when new rows are added. Alternatively, use named ranges with OFFSET function for dynamic ranges.",
+      "keywords": ["dynamic", "chart", "table", "OFFSET", "named ranges", "auto-update"]
+    },
+    {
+      "id": "scenario_003",
+      "section": "scenario",
+      "question": "You need to combine data from multiple sheets into one summary sheet. What approach would you use?",
+      "type": "text",
+      "difficulty": "hard",
+      "topic": "Data Consolidation",
+      "canonical_answer": "Use Power Query (Data > Get Data) to combine multiple sheets, or use 3D references like =SUM(Sheet1:Sheet3!A1). For complex scenarios, use INDIRECT function with sheet names in a list.",
+      "keywords": ["Power Query", "combine", "multiple sheets", "3D references", "INDIRECT"]
+    },
+    {
+      "id": "scenario_004",
+      "section": "scenario",
+      "question": "How would you create a dashboard that shows key metrics and updates in real-time?",
+      "type": "text",
+      "difficulty": "hard",
+      "topic": "Dashboards",
+      "canonical_answer": "Use PivotTables for data summaries, slicers for filtering, and charts for visualization. Set up automatic refresh (Data > Refresh All) and use conditional formatting for KPI indicators. Consider Power BI for advanced dashboards.",
+      "keywords": ["dashboard", "PivotTables", "slicers", "refresh", "conditional formatting", "KPI"]
+    },
+    {
+      "id": "scenario_005",
+      "section": "scenario",
+      "question": "You have inconsistent date formats in your data. How would you standardize them?",
+      "type": "text",
+      "difficulty": "hard",
+      "topic": "Data Cleaning",
+      "canonical_answer": "Use DATEVALUE function to convert text to dates, or Text to Columns wizard (Data > Text to Columns). For complex formats, use DATE function with RIGHT, LEFT, MID functions to extract day, month, year components.",
+      "keywords": ["DATEVALUE", "Text to Columns", "DATE", "RIGHT", "LEFT", "MID", "standardize"]
+    },
+    {
+      "id": "scenario_006",
+      "section": "scenario",
+      "question": "How would you create a formula that calculates commission based on different tiers (0-1000: 5%, 1001-5000: 7%, 5000+: 10%)?",
+      "type": "text",
+      "difficulty": "hard",
+      "topic": "Complex Formulas",
+      "canonical_answer": "Use nested IF statements: =IF(A1<=1000, A1*0.05, IF(A1<=5000, A1*0.07, A1*0.1)). Or use VLOOKUP with a lookup table, or IFS function: =IFS(A1<=1000, A1*0.05, A1<=5000, A1*0.07, A1>5000, A1*0.1).",
+      "keywords": ["nested IF", "tiers", "commission", "VLOOKUP", "IFS", "lookup table"]
+    },
+    {
+      "id": "scenario_007",
+      "section": "scenario",
+      "question": "You need to create a monthly report that automatically pulls data from different sources. How would you approach this?",
+      "type": "text",
+      "difficulty": "hard",
+      "topic": "Automation",
+      "canonical_answer": "Use Power Query to connect to data sources, create a data model, and set up automatic refresh schedules. Use Power Pivot for complex relationships. Consider VBA macros for additional automation or Power BI for advanced reporting.",
+      "keywords": ["Power Query", "data sources", "automation", "Power Pivot", "VBA", "Power BI"]
+    },
+    {
+      "id": "scenario_008",
+      "section": "scenario",
+      "question": "How would you create a budget vs actual analysis with variance calculations?",
+      "type": "text",
+      "difficulty": "hard",
+      "topic": "Financial Analysis",
+      "canonical_answer": "Create columns for Budget, Actual, and Variance. Use formulas: Variance = Actual - Budget, % Variance = (Actual - Budget) / Budget. Use conditional formatting to highlight over/under budget. Create charts showing trends and variances.",
+      "keywords": ["budget", "actual", "variance", "percentage", "conditional formatting", "charts"]
+    },
+    {
+      "id": "troubleshoot_001",
+      "section": "troubleshoot",
+      "question": "Your VLOOKUP formula is returning #N/A errors. What are the most common causes and solutions?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Error Handling",
+      "canonical_answer": "Common causes: 1) Lookup value not found - check for extra spaces, case sensitivity, data types. 2) Table array not sorted (for approximate match). 3) Column index number incorrect. Solutions: Use TRIM, EXACT functions, check data types, verify column numbers.",
+      "keywords": ["#N/A", "VLOOKUP", "TRIM", "EXACT", "data types", "column index"]
+    },
+    {
+      "id": "troubleshoot_002",
+      "section": "troubleshoot",
+      "question": "Excel is running very slowly with large datasets. What optimization techniques would you recommend?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Performance",
+      "canonical_answer": "1) Use Excel Tables instead of ranges. 2) Avoid volatile functions (NOW, TODAY, RAND). 3) Use INDEX/MATCH instead of VLOOKUP. 4) Convert formulas to values where possible. 5) Use Power Query for large data imports. 6) Disable automatic calculations.",
+      "keywords": ["performance", "tables", "volatile functions", "INDEX/MATCH", "Power Query", "calculations"]
+    },
+    {
+      "id": "troubleshoot_003",
+      "section": "troubleshoot",
+      "question": "Your PivotTable is not showing all the data you expect. What could be wrong?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "PivotTables",
+      "canonical_answer": "1) Data source range doesn't include all data - refresh or expand range. 2) Blank rows/columns in data. 3) Data not in proper table format. 4) Filters applied. 5) Grouping settings. Check data source, refresh PivotTable, verify data structure.",
+      "keywords": ["PivotTable", "data source", "refresh", "filters", "grouping", "blank rows"]
+    },
+    {
+      "id": "troubleshoot_004",
+      "section": "troubleshoot",
+      "question": "How do you fix circular reference errors in Excel?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Error Handling",
+      "canonical_answer": "Circular references occur when a formula refers to its own cell. Fix by: 1) Check for direct circular references (A1 refers to A1). 2) Check for indirect circular references (A1→B1→C1→A1). 3) Use iterative calculation settings if intentional. 4) Restructure formulas to break the cycle.",
+      "keywords": ["circular reference", "formula", "iterative", "restructure", "cycle"]
+    },
+    {
+      "id": "troubleshoot_005",
+      "section": "troubleshoot",
+      "question": "Your chart is not updating when you change the data. How do you fix this?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Charts",
+      "canonical_answer": "1) Check if chart is linked to correct data range. 2) Ensure data is in a contiguous range. 3) Refresh the chart (right-click > Refresh). 4) Check if chart is using static values instead of formulas. 5) Use Excel Tables for automatic updates.",
+      "keywords": ["chart", "update", "data range", "refresh", "static values", "tables"]
+    },
+    {
+      "id": "troubleshoot_006",
+      "section": "troubleshoot",
+      "question": "Excel keeps crashing when opening a large file. What solutions would you try?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Performance",
+      "canonical_answer": "1) Open in Safe Mode (Ctrl+Shift+Click Excel). 2) Disable add-ins. 3) Check file size and complexity. 4) Use Power Query to import data in chunks. 5) Save as .xlsb format for better compression. 6) Check for corrupted formulas or objects. 7) Increase virtual memory.",
+      "keywords": ["crashing", "Safe Mode", "add-ins", "file size", "Power Query", ".xlsb", "virtual memory"]
+    },
+    {
+      "id": "troubleshoot_007",
+      "section": "troubleshoot",
+      "question": "Your conditional formatting is not working as expected. What should you check?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Formatting",
+      "canonical_answer": "1) Verify the formula syntax is correct. 2) Check cell references (relative vs absolute). 3) Ensure data types match (text vs numbers). 4) Check if rules are in correct order (top rule takes precedence). 5) Verify the range selection. 6) Test with simple conditions first.",
+      "keywords": ["conditional formatting", "formula", "syntax", "references", "data types", "rules"]
+    },
+    {
+      "id": "troubleshoot_008",
+      "section": "troubleshoot",
+      "question": "You're getting #DIV/0! errors in your formulas. How do you fix them?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Error Handling",
+      "canonical_answer": "This error occurs when dividing by zero. Fix by: 1) Use IF function to check for zero: =IF(B1=0, 0, A1/B1). 2) Use IFERROR function: =IFERROR(A1/B1, 0). 3) Check for empty cells that evaluate to zero. 4) Use ISERROR or ISNA for more complex error handling.",
+      "keywords": ["#DIV/0!", "divide by zero", "IF", "IFERROR", "empty cells", "ISERROR"]
+    },
+    {
+      "id": "troubleshoot_009",
+      "section": "troubleshoot",
+      "question": "Your formulas are showing as text instead of calculating. What's wrong?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "Formulas",
+      "canonical_answer": "1) Check if the cell is formatted as Text - change to General or Number. 2) Look for leading apostrophe (') before the equals sign. 3) Check if Calculation Options is set to Manual. 4) Ensure the formula starts with = sign. 5) Check for spaces or hidden characters.",
+      "keywords": ["text", "formula", "format", "apostrophe", "Calculation Options", "equals sign"]
+    },
+    {
+      "id": "troubleshoot_010",
+      "section": "troubleshoot",
+      "question": "How do you recover an unsaved Excel file?",
+      "type": "text",
+      "difficulty": "medium",
+      "topic": "File Recovery",
+      "canonical_answer": "1) Go to File > Open > Recent > Recover Unsaved Workbooks. 2) Check the AutoRecover location: File > Options > Save > AutoRecover file location. 3) Look in Temp folder: %AppData%\\Microsoft\\Excel. 4) Use File > Info > Manage Versions. 5) Check if AutoSave was enabled.",
+      "keywords": ["recover", "unsaved", "AutoRecover", "Temp folder", "AutoSave", "Manage Versions"]
+    }
+  ]
+}
